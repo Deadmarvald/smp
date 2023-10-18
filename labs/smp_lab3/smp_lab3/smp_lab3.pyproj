@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>cc765787-210d-4bf0-9fd1-7e28a1a17433</ProjectGuid>
+    <ProjectGuid>703af784-beaa-4b25-8497-b4c81da6b129</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>runner.py</StartupFile>
+    <StartupFile>smp_lab3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>smp_lab2</Name>
-    <RootNamespace>smp_lab2</RootNamespace>
+    <Name>smp_lab3</Name>
+    <RootNamespace>smp_lab3</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,13 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="runner.py" />
-    <Compile Include="console_output.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="calculator.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="smp_lab3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

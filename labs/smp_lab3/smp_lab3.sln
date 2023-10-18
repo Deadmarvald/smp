@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "smp_lab3", "smp_lab3\smp_lab3.pyproj", "{703AF784-BEAA-4B25-8497-B4C81DA6B129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{703AF784-BEAA-4B25-8497-B4C81DA6B129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703AF784-BEAA-4B25-8497-B4C81DA6B129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {233F80D9-96AB-477D-A51C-D6AC7CEDC1A6}
+	EndGlobalSection
+EndGlobal
